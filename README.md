@@ -99,6 +99,9 @@ remotion-ui-demo/
 ├── README.md
 ├── remotion.config.js
 └── skills-lock.json
+```
+
+---
 ## Architecture
 
 The project follows a modular, component-based architecture that separates video scenes, reusable UI components, and animation logic.
