@@ -78,16 +78,12 @@ remotion-ui-demo/
 │   │   ├── FadeTransition.tsx
 │   │   ├── GlassCard.tsx
 │   │   ├── MessagePanel.tsx
-│   │   ├── Product.tsx
 │   │   ├── ProgressBar.tsx
-│   │   ├── SceneTransition.tsx
 │   │   ├── SetupPreferences.tsx
-│   │   ├── TextReveal.tsx
 │   │   └── Title.tsx
 │   │
 │   ├── scenes/
 │   │   ├── IntroScene.tsx
-│   │   ├── OutputScene.tsx
 │   │   ├── StageOneScene.tsx
 │   │   └── StageTwoScene.tsx
 │   │
@@ -96,7 +92,10 @@ remotion-ui-demo/
 │   └── template.tsx
 │
 ├── .gitignore
-├── package.json
+├── .prettierrc
+├── eslint.config.mjs
 ├── package-lock.json
-├── tsconfig.json
-└── README.md
+├── package.json
+├── README.md
+├── remotion.config.js
+└── skills-lock.json
