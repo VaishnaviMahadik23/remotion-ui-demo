@@ -1,54 +1,102 @@
-# Remotion video
+# Remotion Product Launch Video Recreation
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+A high-quality product launch video recreation built with **React, TypeScript, and Remotion**. This project focuses on reproducing a provided reference video with accurate visual design, animation timing, transitions, typography, spacing, depth, and motion effects.
 
-Welcome to your Remotion project!
+The implementation follows a reusable and maintainable component-based architecture rather than hardcoding the final video.
 
-## Commands
+---
 
-**Install Dependencies**
+## Overview
 
-```console
-npm i
-```
+This project was developed as part of a technical and design evaluation to recreate a product launch video using **Remotion**.
 
-**Start Preview**
+The primary objective is to achieve close visual and motion similarity to the provided reference while maintaining clean, reusable, and scalable React + TypeScript code.
 
-```console
-npm run dev
-```
+### Key Focus Areas
 
-**Render video**
+- Frame-accurate animation timing
+- Smooth transitions and easing
+- Typography and visual hierarchy
+- Precise spacing and positioning
+- Gradients and background effects
+- Glassmorphism and blur effects
+- Shadows and depth
+- UI interactions and micro-animations
+- Scene composition
+- Reusable React components
+- Type-safe TypeScript implementation
+- Remotion Studio compatibility
 
-```console
-npx remotion render
-```
+---
 
-**Upgrade Remotion**
+## Features
 
-```console
-npx remotion upgrade
-```
+- 🎬 Programmatic video generation with Remotion
+- ⚛️ Component-based React architecture
+- 🔷 TypeScript for type safety
+- 🎨 Custom visual styling and effects
+- ✨ Smooth frame-based animations
+- 🔄 Reusable scene transitions
+- 🖥️ Product/UI showcase animations
+- 💎 Glassmorphism effects
+- 🌈 Gradient backgrounds
+- 📱 Responsive visual composition
+- 🧩 Modular scene and component structure
+- 🎥 High-quality MP4 rendering
 
-## Docs
+---
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+## Technology Stack
 
-## Help
+| Technology | Purpose |
+|---|---|
+| React | UI and component architecture |
+| TypeScript | Type-safe development |
+| Remotion | Programmatic video creation |
+| CSS | Styling and visual effects |
+| Node.js | JavaScript runtime |
+| npm | Dependency management |
+| Git | Version control |
+| GitHub | Source code hosting |
 
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
+---
 
-## Issues
+## Project Structure
 
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+```text
+remotion-ui-demo/
+│
+├── public/
+│   └── assets/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── Background.tsx
+│   │   ├── ChatInput.tsx
+│   │   ├── DoneCheck.tsx
+│   │   ├── FadeTransition.tsx
+│   │   ├── GlassCard.tsx
+│   │   ├── MessagePanel.tsx
+│   │   ├── Product.tsx
+│   │   ├── ProgressBar.tsx
+│   │   ├── SceneTransition.tsx
+│   │   ├── SetupPreferences.tsx
+│   │   ├── TextReveal.tsx
+│   │   └── Title.tsx
+│   │
+│   ├── scenes/
+│   │   ├── IntroScene.tsx
+│   │   ├── OutputScene.tsx
+│   │   ├── StageOneScene.tsx
+│   │   └── StageTwoScene.tsx
+│   │
+│   ├── Root.tsx
+│   ├── index.ts
+│   └── template.tsx
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
