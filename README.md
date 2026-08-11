@@ -301,7 +301,7 @@ https://github.com/VaishnaviMahadik23/remotion-ui-demo
 
 **Vaishnavi Mahadik**
 
-B.Tech Computer Engineering
+B.Tech Information Technology
 
 # License
 
